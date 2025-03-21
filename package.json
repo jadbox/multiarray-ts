@@ -1,5 +1,21 @@
 {
   "name": "multiarray-ts",
+  "version": "0.1.0",
+  "description": "A TypeScript implementation of multiarray",
+  "main": "dist/index.js",
+  "author": "Jonathan Dunlap",
+  "license": "MIT",
+  "homepage": "https://github.com/jadbox/multiarray-ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jadbox/multiarray-ts.git"
+  },
+  "keywords": [
+    "multiarray",
+    "typescript",
+    "array",
+    "data structure"
+  ],
   "module": "index.ts",
   "type": "module",
   "dist": {
