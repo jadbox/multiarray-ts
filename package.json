@@ -1,0 +1,19 @@
+{
+  "name": "multiarray-ts",
+  "module": "index.ts",
+  "type": "module",
+  "dist": {
+    "dir": "dist",
+    "format": "esm"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "eslint": "^8.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "bun build index.ts --outdir=dist --minify"
+  }
+}
