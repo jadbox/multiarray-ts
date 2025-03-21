@@ -14,6 +14,7 @@
     "typescript": "^5"
   },
   "scripts": {
-    "build": "bun build index.ts --outdir=dist --minify"
+    "build": "bun build index.ts --outdir=dist --minify",
+    "test": "bun test"
   }
 }
